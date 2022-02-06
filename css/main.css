@@ -37,6 +37,12 @@ body {
 }
 
 .site-header-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sitenav {
+    margin-left: auto;
 }
 
 .sitenav-list {
@@ -116,6 +122,8 @@ body {
 }
 
 .content-div-img {
+    display: flex;
+    width: 100%;
     object-fit: cover;
 }
 
